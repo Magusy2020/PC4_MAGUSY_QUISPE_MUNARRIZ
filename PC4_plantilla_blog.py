@@ -144,9 +144,9 @@ st.markdown("<h2 style='text-align: center;'>Explicación de dos temas de las cl
 # st.video("PC3_video.mp4")
 # st.video("ppc-2024-1.mp4"): Esta línea está agregando un video a la aplicación web.
 # Agregamos un enlace a la página web donde está el video.
-enlace = f'<a href="https://drive.google.com/file/d/1IlTW1-I-iuihIxw3yW0gKSesvcNxYw6H/view?usp=drive_link" target="_blank"><button>Si te gusta el chisme dale click></a>'
+enlace = f'<a href="https://drive.google.com/file/d/1IlTW1-I-iuihIxw3yW0gKSesvcNxYw6H/view?usp=drive_link" target="_blank"><button>Si te gusta el chisme dale click</button></a>'
 st.markdown(enlace, unsafe_allow_html=True)
-enlace_2 = f'<a href="https://drive.google.com/file/d/1zHQTeBIx05oQXzkU9sarnJuOfXOFbko1/view?usp=drive_link" target="_blank"><button>Si te gusta el chisme dale click></a>'
+enlace_2 = f'<a href="https://drive.google.com/file/d/1zHQTeBIx05oQXzkU9sarnJuOfXOFbko1/view?usp=drive_link" target="_blank"><button>Si te gusta la pizza dale click</button></a>'
 st.markdown(enlace_2, unsafe_allow_html=True)
 # f'<a href="URL" target="_blank"><button>Nombre</button></a>':
 # La etiqueta <a> se utiliza para crear un enlace en HTML.
